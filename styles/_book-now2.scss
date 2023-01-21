@@ -1,0 +1,69 @@
+// book-now block2
+.book2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 600px;
+  background: url(../assets/images/spain-1859434_1280-book-2.png);
+
+  .book2__container {
+    max-width: 60rem;
+    background: rgba(35, 35, 35, 0.9);
+    padding: 4rem 3rem;
+    margin-right: 11rem;
+    margin-top: 9rem;
+
+    .book2__country {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+
+    .book2__name {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    .book2__description {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+
+    // button "Book now"
+    .book2-now {
+      width: 20rem;
+      height: 6rem;
+      font-family: "Aleo";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: #5373fd;
+      margin-top: 24px;
+
+      &:hover {
+        background: #173ce2;
+        color: gold;
+      }
+    }
+  }
+}

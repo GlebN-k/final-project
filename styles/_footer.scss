@@ -1,0 +1,43 @@
+// footer
+.footer {
+  width: 100%;
+  background: #000000;
+
+  .footer__container {
+    width: 27rem;
+    margin: 0 auto;
+    padding: 8rem 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer__logo {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .footer__caption {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2em;
+      color: #ffffff;
+      margin-bottom: 24px;
+    }
+
+    .footer__social-icons {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+}

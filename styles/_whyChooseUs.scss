@@ -1,0 +1,81 @@
+//     <!-- why choose use block -->
+.why {
+  width: 100%;
+  background: url(../assets/images/WhyBackground.png);
+
+  .why__container {
+    padding: 15rem;
+    display: flex;
+    justify-content: space-between;
+
+    .why__text {
+      display: flex;
+      flex-direction: column;
+      max-width: 65rem;
+
+      .why__text-title {
+        font-family: "Aleo";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: #ffffff;
+        margin-bottom: 2.4rem;
+      }
+
+      .why__text-description {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        margin-bottom: 2.4rem;
+      }
+
+      //   button "explore places"
+      .why__text-btn {
+        font-family: "Aleo";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #5373fd;
+        margin-top: 3.2rem;
+        width: 21rem;
+        padding: 20px 25px;
+
+        &:hover {
+          background: #173ce2;
+        }
+      }
+    }
+
+    // image block
+    .why__image-block {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .why__image1 {
+        // border: solid 1px black;
+        // align-self: flex-start;
+        // justify-self: start;
+        margin-right: 80px;
+      }
+
+      .why__image2 {
+        // max-width: 220px;
+        // align-items: flex-end;
+        // justify-self: end;
+        margin-left: 80px;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+// feedback block
+.feedback {
+  width: 100%;
+  height: 600px;
+  background: url(../assets/images/feedback-BG.png);
+
+  .feedback__title {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 10rem;
+    margin-bottom: 6rem;
+  }
+
+  .feedback__item {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .feedback__text {
+      background: #333333;
+      padding: 5rem 6rem;
+
+      .feedback__author {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 16px;
+      }
+
+      .feedback__description {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:375px) {
+  .feedback .feedback__title {
+    font-size: 30px;
+  }
+}
